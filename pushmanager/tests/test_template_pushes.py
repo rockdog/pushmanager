@@ -8,7 +8,6 @@ class PushesTemplateTest(TemplateTestCase):
     pushes_page = 'pushes.html'
     new_push_page = 'new-push.html'
 
-<<<<<<< HEAD
     def render_pushes_page(self, page_title='Pushes', pushes=[], pushes_per_page=50, offset=0):
         return self.render_etree(
             self.pushes_page,
