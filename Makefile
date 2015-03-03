@@ -24,3 +24,7 @@ clean:
 	rm -rf .tox
 	find . -name '*.pyc' -delete
 	find . -name '__pycache__' -delete
+
+.PHONY: install-hooks
+install-hooks:
+	tox -e pre-commit -- install -f --install-hooks

@@ -3,6 +3,6 @@
 # These will be used for tox and other testing environments.
 -r requirements.txt
 coverage==3.7.1
-flake8==2.1.0
+flake8==2.3.0
 pre-commit==0.3.6
 testify==0.5.3
